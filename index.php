@@ -10,19 +10,17 @@
 	<name="uname" required>
 	<br/>
 	<br/>
-
 		<label for="psw"><b>Password:</b></label>
 		<input type="text" placeholder="Enter Password"
 	<name="psw" required>
 	<br/>
 	<br/>
-	
-		<a href="signup.php">Sign Up</a>
+		<button type="submit">Sign Up</button>
 	<br/>
 	<br/>
 		<a href="resetpassword.php">ReseT Password</a>
 	<br/>
 	<br/>
-	<button type="submit">Sign Up</button>
+		<a href="signup.php">Sign Up</a>
 </form>
 </body>
