@@ -16,8 +16,8 @@
 	<name="psw" required>
 	<br/>
 	<br/>
-
-	<button type="submit">Sign In</button>
+	
+		<a href="signup.php">Sign Up</a>
 	<br/>
 	<br/>
 		<a href="resetpassword.php">ReseT Password</a>
