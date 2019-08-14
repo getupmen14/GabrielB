@@ -20,7 +20,6 @@
 	<button type="submit">Sign In</button>
 	<br/>
 	<br/>
-	<button type="submit">Reset Password</button>
 		<a href="resetpassword.php">ReseT Password</a>
 	<br/>
 	<br/>
