@@ -21,7 +21,7 @@
 	<br/>
 	<br/>
 	<button type="submit">Reset Password</button>
-	<a href="resetpassword.html">
+	<a href="resetpassword.php">
 	<br/>
 	<br/>
 	<button type="submit">Sign Up</button>
