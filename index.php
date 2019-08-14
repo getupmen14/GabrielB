@@ -2,7 +2,7 @@
 <html>
 <head><title>Login Page</title></head>
 <body align="center">
-<form action="/action_page.html">
+<form action="/action_page.php">
 	<h1>Login</h1>
 	<div class="container">
 		<label for="uname"><b>Username:</b></label>
@@ -21,7 +21,7 @@
 	<br/>
 	<br/>
 	<button type="submit">Reset Password</button>
-		<a href="resetpassword.php"></a>
+		<a href="resetpassword.php">ReseT Password</a>
 	<br/>
 	<br/>
 	<button type="submit">Sign Up</button>
