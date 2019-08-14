@@ -13,8 +13,14 @@
 		<label for="psw"><b>Password:</b></label>
 		<input type="text" placeholder="Enter Password"
 	<name="psw" required>
-		<button type="submit" value="Submit"></button>
+	<br/>
+	<br/>
+		<button type="submit" value="Submit">Submit</button>
+	<br/>
+	<br/>
 </form>
 	<a href="resetpassword.php">ReseT Password</a>
+	<br/>
+	<br/>
 	<a href="signup.php">Sign Up</a>
 </body>
