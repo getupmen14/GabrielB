@@ -3,7 +3,7 @@
 <head><title>Reset Password</title></head>
 <body align="center">
 	<h1>Enter</h1>
-<form action="/action_page.html">
+<form action="/action_page.php">
 	<div class="container">
 		<label for="email"><b>Email Address:</b></label>
 		<input type="text" placeholder="Enter Email">
