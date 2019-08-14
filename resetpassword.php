@@ -1,4 +1,4 @@
-<!DODCTYPE html>
+<!DOCTYPE html>
 <html>
 <head><title>Reset Password</title></head>
 <body align="center">
@@ -9,7 +9,5 @@
 		<input type="text" placeholder="Enter Email">
 	<name="email" required>
 </form>
-
-
 </body>
 </html>
