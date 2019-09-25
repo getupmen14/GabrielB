@@ -1,75 +1,72 @@
 
-
-<!DOCTYPE html>
 <html>
-<head>
-<title>J'Neil Christian A. Bering</title>
+<head><title>Number Guessing Game</title>
 <style>
-	html{
-	font-family: Arial Black, cursive;
-	    }
-	body{
-		text-align: center;
-		color: white;
-		background-image:url("gif.gif");
-		}
+	html {
+	font-family: Arial;
+	}
+	body {
+	text-align: center;
+	color: White;
+	background-image: url("RM.jpg");
+	}
 </style>
 </head>
+
 <body>
-
-
-<h1 style="background-color:Purple; font-size: 1000%">GUESS THE NUMBER</h1>
-
-<p style="font-size:150%;">Try to Guess the Number We have Randomly Selected from 1-10</p>
+	<h1 style="font-size: 500%;">Guess The Number</h1>
+	<p style=" font-size: 200%;">Try Guessing the number we have randomly selected from 1-10</p>
 
 <div class="form"> 
-    <label for="guessField">ENTER A GUESS:</label> 
-    <input type = "text" id = "guessField" class = "guessField"> 
-    <input type = "submit" value = "SUBMIT GUESS" class = "guessSubmit" id = "submitguess"> 
+	<label for="guessField">Enter a guess: </label> 
+    	<input type = "text" id = "guessField" class = "guessField"> 
+   	<input type = "submit" value = "Submit guess" 
+           class = "guessSubmit" id = "submitguess"> 
 </div> 
-  
+
+
 <script type = "text/javascript"> 
   
-    // random number generated 
-    var y = Math.floor(Math.random() * 10 + 1); 
+	var y = Math.floor(Math.random() * 10 + 1); 
       
-    // counting the number of guesses 
-    // made for correct Guess 
-    var guess = 1; 
+	var guess = 0; 
       
-    document.getElementById("submitguess").onclick = function(){ 
-      
-   // user guess       
-   var x = document.getElementById("guessField").value; 
-
-
-  if (x == "") {
- alert("Missing guess parameter"); 
-}
-  else if(x == y) 
-   {     
-       alert("Congratulations - You are right"
-               ); 
-   } 
-else if(x > y) 
-   {     
-       guess++; 
-       alert("Your guess is too high"); 
-   } 
-else if(x < y) 
-   {     
-       guess++; 
-       alert("Your guess is too low"); 
-   } 
-
-   else
-   { 
-       guess++; 
-       alert("Your guess is not a number") 
-   } 
+	document.getElementById("submitguess").onclick = function(){ 
+          
+	var x = document.getElementById("guessField").value; 
+  
+   	if(x == y) 
+   	{     
+       		alert("Congratulations! You Guess it Right"); 
+  	} 
+   	else if(x > y)
+   	{     
+       		guess++; 
+       		alert("Your guess is too high"); 
+   	}
+	else if(x<y)
+	{
+		guess++;
+		alert("Your guess is too low");
+	}
+   	else
+   	{ 
+       		guess++; 
+       		alert("Your guess is not a number") 
+   	} 
 } 
 </script> 
-	
-
-</body>
-</html>
+</body> 
+</html>                 
+© 2019 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
