@@ -34,8 +34,11 @@
 	document.getElementById("submitguess").onclick = function(){ 
           
 	var x = document.getElementById("guessField").value; 
-  
-   	if(x == y) 
+  	
+	if(x==""){
+	alert("Missing guess parameter");
+	}
+   	else if(x == y) 
    	{     
        		alert("Congratulations! You Guess it Right"); 
   	} 
